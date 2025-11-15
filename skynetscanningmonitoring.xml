@@ -12,10 +12,10 @@
             <en>Scan, monitor, and identify website accessibility issues across WCAG 2.0, 2.1, 2.2, ADA, Section 508, EN 301 549, UK Equality Act, Australian DDA, and Canada ACA. Get simple issue highlights with recommended fixes.</en>
         </long>
     </description>
-    <homepage></homepage>
-    <download></download>
-    <issues></issues>
-    <readme></readme>
+    <homepage>https://github.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner</homepage>
+    <download>https://github.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/releases</download>
+    <issues>https://github.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/issues</issues>
+    <readme>https://github.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/blob/1.0.1/README.md</readme>
     <authors>
         <author>Skynet Technologies USA LLC</author>
     </authors>
