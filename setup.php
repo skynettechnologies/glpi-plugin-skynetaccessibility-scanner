@@ -1,28 +1,30 @@
 <?php
-
-define('PLUGIN_SAM_VERSION', '1.0.0');
+use Glpi\Plugin\Hooks;
+define('PLUGIN_SKYNACCSCAN_VERSION', '1.0');
 
 function plugin_init_skynetaccessibilityscanner()
 {
-   global $PLUGIN_HOOKS, $CFG_GLPI;
+    global $PLUGIN_HOOKS;
 
-   $PLUGIN_HOOKS['csrf_compliant']['skynetaccessibilityscanner'] = true;
-
-   $plugin = new Plugin();
-   if ($plugin->isInstalled('skynetaccessibilityscanner') && $plugin->isActivated('skynetaccessibilityscanner')) {
-
-      if (Session::haveRight('reminder_public', READ)) {
-         $PLUGIN_HOOKS['config_page']['skynetaccessibilityscanner'] = 'front\src\SkynetAccessibilityScanning.php';
-      }
-   }
+    $PLUGIN_HOOKS['csrf_compliant']['skynetaccessibilityscanner'] = true;
+    $plugin = new Plugin();
+    if ($plugin->isInstalled('skynetaccessibilityscanner') && $plugin->isActivated('skynetaccessibilityscanner')) {
+        $PLUGIN_HOOKS[Hooks::ADD_JAVASCRIPT]['skynetaccessibilityscanner'] = [
+            'js/skynetaccessibilityscanner.js.php',
+        ];
+        // Admin config page
+        if (Session::haveRight('reminder_public', READ)) {
+            $PLUGIN_HOOKS['config_page']['skynetaccessibilityscanner'] = 'front/src/skynetaccessibilityscanner.php';
+        }
+    }
 }
 
 function plugin_version_skynetaccessibilityscanner()
 {
    return [
-      'name'         => "SkynetAccessibility Scanner",
-      'version'      => PLUGIN_SAM_VERSION,
-      'author'       => 'SKYNET TECHNOLOGIES USA LLC.',
-      'license'      => ''
+      'name'         => __('SkynetAccessibility Scanner', 'skynetaccessibilityscanner'),
+      'version'      => PLUGIN_SKYNACCSCAN_VERSION,
+      'author'       => 'SKYNET TECHNOLOGIES USA LLC',
+      'license'      => 'MIT'
    ];
 }
