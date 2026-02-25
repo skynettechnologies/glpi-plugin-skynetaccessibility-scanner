@@ -3,7 +3,7 @@
     <name>SkynetAccessibility Scanner</name>
     <key>skynetaccessibilityscanner</key>
     <state>stable</state>
-    <logo>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/skynet-accessibility-scanner.png</logo>
+    <logo crossorigin="anonymous">https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/skynetaccessibilityscanner.png</logo>
 
     <description>
         <short>
@@ -25,11 +25,9 @@
 
     <versions>
         <version>
-            <num>1.0.5</num>
-            <compatibility>^11.0</compatibility>
-            <download_url>
-                https://github.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/releases/tag/1.0.0
-            </download_url>
+            <num>1.0.6</num>
+            <compatibility>~11.0</compatibility>
+            <download_url>http://link/to/your/file</download_url>
         </version>
     </versions>
 
@@ -49,16 +47,16 @@
     </tags>
 
     <screenshots>
-        <screenshot>
-            https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-01.jpg
+        <screenshot crossorigin="anonymous">
+            https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-01.png
         </screenshot>
-        <screenshot>
-            https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-02.jpg
+        <screenshot crossorigin="anonymous">
+            https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-02.png
         </screenshot>
-        <screenshot>
-            https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-03.jpg
+        <screenshot crossorigin="anonymous">
+            https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-03.png
         </screenshot>
-        <screenshot>
+        <screenshot crossorigin="anonymous">
             https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-04.jpg
         </screenshot>
     </screenshots>
