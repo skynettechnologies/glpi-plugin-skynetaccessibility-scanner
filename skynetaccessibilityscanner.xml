@@ -3,7 +3,7 @@
     <name>SkynetAccessibility Scanner</name>
     <key>skynetaccessibilityscanner</key>
     <state>stable</state>
-    <logo>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynet-accessibility-scanner/main/images/skynet-accessibility-scanner.png</logo>
+    <logo>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/skynet-accessibility-scanner.png</logo>
     <description>
         <short>
             <en>Scan and monitor websites for accessibility issues across WCAG 2.0, 2.1, 2.2 and ADA standards.</en>
@@ -12,18 +12,18 @@
             <en>Scan, monitor, and identify website accessibility issues across WCAG 2.0, 2.1, 2.2, ADA, Section 508, EN 301 549, UK Equality Act, Australian DDA, and Canada ACA. Get simple issue highlights with recommended fixes.</en>
         </long>
     </description>
-    <homepage>https://github.com/skynettechnologies/glpi-plugin-skynet-accessibility-scanner</homepage>
-    <download>https://github.com/skynettechnologies/glpi-plugin-skynet-accessibility-scanner/releases</download>
-    <issues>https://github.com/skynettechnologies/glpi-plugin-skynet-accessibility-scanner/issues</issues>
-    <readme>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynet-accessibility-scanner/main/README.md</readme>
+    <homepage>https://github.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner</homepage>
+    <download>https://github.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/releases</download>
+    <issues>https://github.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/issues</issues>
+    <readme>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/README.md</readme>
     <authors>
         <author>Skynet Technologies USA LLC</author>
     </authors>
     <versions>
         <version>
-            <num>1.0.0</num>
+            <num>1.0.3</num>
             <compatibility>^11.0</compatibility>
-            <download_url>https://github.com/skynettechnologies/glpi-plugin-skynet-accessibility-scanner/releases/tag/1.0.0</download_url>
+            <download_url>https://github.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/releases/tag/1.0.0</download_url>
         </version>
     </versions>
     <langs>
@@ -39,9 +39,9 @@
         </en>
     </tags>
     <screenshots>
-        <screenshot>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynet-accessibility-scanner/main/images/screenshot-01.jpg</screenshot>
-        <screenshot>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynet-accessibility-scanner/main/images/screenshot-02.jpg</screenshot>
-        <screenshot>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynet-accessibility-scanner/main/images/screenshot-03.jpg</screenshot>
-        <screenshot>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynet-accessibility-scanner/main/images/screenshot-04.jpg</screenshot>
+        <screenshot>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-01.jpg</screenshot>
+        <screenshot>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-02.jpg</screenshot>
+        <screenshot>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-03.jpg</screenshot>
+        <screenshot>https://raw.githubusercontent.com/skynettechnologies/glpi-plugin-skynetaccessibility-scanner/main/images/screenshot-04.jpg</screenshot>
     </screenshots>
 </root>
